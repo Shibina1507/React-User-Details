@@ -1,0 +1,115 @@
+
+.UserDetails {
+    width: 80%;
+    margin: 43px auto;
+    border: 1px solid #eee;
+    box-shadow: 0 2px 3px #ccc;
+    text-align: center;
+    background-color: #1a73e8;
+    height: 70vh;
+}
+
+.Edit label {
+    display: block;
+    color: grey;
+}
+
+.Edit button {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    outline: none;
+    color: #fa923f;
+}
+
+.Edit button:hover,
+.Edit button:active {
+    color: #521751;
+}
+
+.Edit button.Delete {
+    color: red;
+}
+
+.Edit button.Delete:hover,
+.Edit button.Delete:active {
+    color: darkred;
+}
+.pageHide {
+    display: none;
+}
+.close {
+    float: right;
+    background-color: #1a73e8;
+    color: whitesmoke;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.UserFullDetails {
+    float: left;
+    color: white;
+    text-align: left;
+    margin-left: 42px;
+    margin-top: 90px;
+}
+.User::before{
+    font-family: FontAwesome;
+    content: "\f007";
+    display: inline-block;
+    font-size: 55px;
+}
+.User {
+    width: 70px;
+    height: 70px;
+    padding: 6px;
+    border: 1px solid #eee;
+    -webkit-box-shadow: 0 2px 3px #ccc;
+    box-shadow: 0 2px 3px #ccc;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border-radius: 50%;
+    position: absolute;
+    top: 76px;
+    left: 120px;
+    background-color: #1a73e8;
+}
+.App {
+    overflow-x: hidden;
+    height: 100vh;
+}
+.twitter::before {
+    font-family: FontAwesome;
+    content: "\f099";
+    display: inline-block;
+    font-size: 29px;
+}
+.twitter {
+    position: relative;
+    left: 66px;
+}
+.facebook {
+    position: relative;
+    left: 93px;
+}
+.facebook::before {
+    font-family: FontAwesome;
+    content: "\F09a";
+    display: inline-block;
+    font-size: 29px;
+}
+.instagram {
+    position: relative;
+    left: 124px;
+}
+.instagram::before {
+    font-family: FontAwesome;
+    content: "\f16d";
+    display: inline-block;
+    font-size: 29px;
+}

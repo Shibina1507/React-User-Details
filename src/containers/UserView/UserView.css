@@ -1,0 +1,60 @@
+@import '~font-awesome/css/font-awesome.min.css';
+
+
+.Items {
+    width: 50vw;
+    height: 80vh;
+    margin-top: 3%;
+    border: 1px solid whitesmoke;
+    margin-left: 23%;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px 10px #888888;
+}
+.ItemContainer{
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    margin-bottom: 2%;
+}
+.Post {
+    width: 100px;
+    height: 100px;
+    padding: 23px;
+    text-align: center;
+    border: 1px solid #eee;
+    box-shadow: 0 2px 3px #ccc;
+    margin: 43px;
+    box-sizing: border-box;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.Post:hover,
+.Post:active {
+    background-color: #C0DDF5;
+}
+
+.Author {
+    margin: 16px 0;
+    color: #ccc;
+}
+
+.Post::before {
+    font-family: FontAwesome;
+    content: "\f007";
+    display: inline-block;
+    font-size: 60px;
+}
+.UserName {
+    position: relative;
+    top: 26px;
+}
+section.NavBar {
+    height: 39px;
+    width: 100vw;
+    background-color: #0000b3;
+    color: white;
+    font-weight: bold;
+    padding-left: 30px;
+    padding-top: 20px;
+}
