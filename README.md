@@ -2,7 +2,7 @@
 
 ## Overview
 
-A simple image compressor built with [react](https://reactjs.org/).
+A simple view user details built with [react](https://reactjs.org/).
 
 ## Functionalities
 
